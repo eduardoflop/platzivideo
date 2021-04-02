@@ -6,6 +6,7 @@
 }
 body {
     background-color: #8f57fd;
+    height: 100%;
 }
 .header {
     background-color: #8f57fd;
@@ -167,7 +168,7 @@ nav h2 {
     color: white;
     padding: 0px 55px 40px;
     height: 550px;
-    width: 450px;
+    width: 300px;
 }
 .login__container--form {
     display: flex;
@@ -225,6 +226,8 @@ nav h2 {
     padding: 0px 20px;
     outline: none;
     height: 50px;
+    color: white;
+    font-size: 16px;
 
 }
 .button {
@@ -240,18 +243,23 @@ nav h2 {
     margin: 10px 0px;
 }
 .footer {
+ 
     display: flex;
-    align-items: center;
     height: 50px;
     width: 100%;
     display: flex;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-bottom: 15px;
+    margin-top: 30px;
 }
 .footer a {
     color: white;
     cursor: pointer;
-    padding-left: 30px;
+    padding-right: 30px;
     text-decoration: none;
+    font-size: 12px;
+
 }
 .footer a:hover {
     text-decoration: underline;
@@ -262,7 +270,7 @@ nav h2 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height:calc(100vh - 130px);
+    height:calc(100vh - 160px);
 }
 .register h2 {
     padding-top: 30px;
